@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&family=Titillium+Web&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	color: white;
+	background-color: #222;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	margin: 50px auto;
+	width: 90%;
+	max-width: 1280px;
+}
+
+header {
+	position: relative;
+}
+
+header .logo {
+	font-weight: 600;
+	font-size: 25px;
+}
+
+header .shop-cart-button {
+	float: right;
+	cursor: pointer;
+	transition: opacity 0.6s ease, scale 0.6s ease;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active {
+	opacity: 0.6;
+	scale: 1.5;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 5;
+}
+
+header .shop-cart {
+	position: absolute;
+	top: 30px;
+	right: 0;
+	width: 90%;
+	max-width: 450px;
+	padding: 20px;
+	padding-bottom: 0;
+	background-color: rgb(62, 62, 62);
+	border-radius: 10px;
+	box-shadow: 18px 6px 29px 0px rgba(153, 142, 153, 0.22);
+	z-index: 10;
+}
+
+header .shop-cart .item {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+header .shop-cart .item img {
+	width: 70px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+header .shop-cart .item .delete {
+	color: red;
+	float: right;
+	position: relative;
+	top: -25px;
+	cursor: pointer;
+	transition: scale 0.5s ease, color 0.2s ease;
+}
+
+header .shop-cart .item .delete:hover {
+	color: rgb(250, 94, 94);
+	scale: 1.1;
+}
+
+header .shop-cart .total {
+	float: left;
+	font-weight: 600;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+header ul.nav {
+	float: right;
+	list-style: none;
+}
+
+header ul.nav li {
+	display: inline;
+	margin-left: 25px;
+	cursor: pointer;
+	transition: opacity 0.6s ease;
+}
+
+header ul.nav li:hover {
+	opacity: 0.6;
+}
+
+header .introSectionPhoto {
+	border-radius: 10px;
+	margin: 50px 0;
+	background: url(./images/logitech-logo-dark-5120x2880-17915.png);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position: center center;
+	box-shadow: 0px 1px 20px -8px rgba(255, 255, 255, 0.83);
+	transition: scale 1s ease;
+}
+
+header .introSectionPhoto:hover {
+	scale: 1.03;
+}
+
+.categories div {
+	display: inline-block;
+	background-color: rgb(48, 48, 48);
+	border-radius: 50px;
+	padding: 10px 20px;
+	margin-bottom: 25px;
+	margin-right: 15px;
+	cursor: pointer;
+	opacity: 0.9;
+	border: 1px solid transparent;
+	transition: opacity 0.3s ease, scale 0.3s ease;
+}
+
+.categories div:hover {
+	opacity: 0.6;
+}
+
+.categories div:active {
+	border-color: grey;
+	scale: 0.95;
+	opacity: 1.5;
+}
+
+.full-item {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.476);
+	overflow: hidden;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.full-item > div {
+	width: 90%;
+	max-width: 600px;
+	position: relative;
+	padding: 40px 30px;
+	background-color: #222;
+	border-radius: 10px;
+}
+
+main {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+main .item {
+	width: 100%;
+	max-width: 30%;
+	margin-bottom: 50px;
+	overflow: hidden;
+	border-radius: 15px;
+	position: relative;
+}
+
+main .item img,
+.full-item img {
+	width: 100%;
+	height: auto;
+	border-radius: 15px;
+	box-shadow: 10px 13px 59px 0px rgba(122, 111, 122, 0.4);
+	transition: scale 0.5s ease;
+	cursor: pointer;
+}
+
+main .item img:hover,
+.full-item img:hover {
+	scale: 1.05;
+}
+
+main h2,
+main p,
+main b,
+.full-item h2,
+.full-item p,
+.full-item b {
+	margin: 10px 20px;
+	color: aliceblue;
+}
+
+main b,
+.full-item b {
+	color: #5fa36a;
+}
+
+main .add-to-cart,
+.full-item .add-to-cart {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	background-color: grey;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	color: white;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: background-color 0.7s ease, scale 0.6s ease;
+	font-weight: bold;
+}
+
+main .add-to-cart:hover,
+.full-item .add-to-cart:hover {
+	background-color: green;
+	scale: 1.2;
+}
+
+footer {
+	text-align: center;
+	margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+	.wrapper {
+		width: 95%;
+		margin: 20px auto;
+	}
+
+	header .shop-cart {
+		width: 100%;
+		right: 0;
+	}
+
+	main {
+		justify-content: center;
+	}
+
+	main .item {
+		width: 90%;
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 1024px) {
+	main .item {
+		width: 45%;
+	}
+}
