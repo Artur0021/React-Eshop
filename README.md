@@ -1,41 +1,57 @@
-Logitech E-shop - github
-link : https://logitechshop.netlify.app/
-link github : https://github.com/Artur0021/React-Eshop
-Description : 
+# 🛒 Logitech E-shop
 
-English 🇬🇧
+🧩 **Technologies**: React.js, Vite, React Router, Ant Design, CSS, Responsive Web Design  
+🚀 **Live**: [https://logitechshop.netlify.app/](https://logitechshop.netlify.app/)  
+💻 **GitHub**: [https://github.com/Artur0021/React-Eshop](https://github.com/Artur0021/React-Eshop)  
+🌐 **Deploy**: (https://www.netlify.com/) 
 
-This project is a modern online store for Logitech products, built using React.js and Vite. It is designed for speed, efficiency, and a clean user experience.
-Key Features:
-Logitech product catalog: keyboards, mice, headsets, and other peripherals.
-Category-based product filtering.
-Product card zoom effect on hover.
-Interactive shopping cart: add, remove, and adjust item quantities.
-Sleek, responsive design with an intuitive UI/UX.
-The project is deployed on Netlify, ensuring fast load times and a stable performance.
-The project has a responsive design and is compatible with all devices.
+---
 
-Русский 🇷🇺
+## 📌 Описание (Русский 🇷🇺)
 
-Этот проект — современный онлайн-магазин продукции Logitech, созданный с использованием React.js и Vite. Он разработан с упором на скорость, удобство и чистую архитектуру кода.
-Функционал проекта:
-Каталог товаров Logitech: клавиатуры, мыши, наушники и другая периферия.
-Фильтрация товаров по категориям.
-Эффект увеличения карточки товара при наведении.
-Интерактивная корзина: добавление, удаление и изменение количества товаров.
-Элегантный и отзывчивый дизайн, продуманный UI/UX.
-Проект был развернут на Netlify, что обеспечивает его быструю загрузку и стабильную работу.
-Проект имеет адаптивный дизайн и совместим со всеми устройствами.
+Этот проект — современный онлайн-магазин продукции Logitech, созданный с использованием **React.js** и **Vite**. Он ориентирован на скорость и удобство работы, а также имеет чистую архитектуру кода.
 
-Čeština 🇨🇿
+**Ключевые особенности проекта**:
 
-Tento projekt je moderní online obchod s produkty Logitech, vytvořený pomocí React.js a Vite. Byl navržen s důrazem na rychlost, přehlednost a kvalitní uživatelské rozhraní.
-Funkce projektu:
-Katalog produktů Logitech: klávesnice, myši, sluchátka a další příslušenství.
-Filtrování produktů podle kategorií.
-Efekt zvětšení karty produktu při najetí myší.
-Interaktivní košík: přidávání, odstraňování a úprava množství položek.
-Elegantní a responzivní design s důrazem na UX/UI.
-Projekt byl nasazen na Netlify, což zajišťuje jeho rychlé načítání a spolehlivý provoz.
-Projekt má responzivní design a je kompatibilní se všemi zařízeními.
+- 🖥️ **Каталог товаров Logitech**: клавиатуры, мыши, наушники и другие периферийные устройства  
+- 🔎 **Фильтрация товаров** по категориям  
+- 🔍 **Эффект увеличения карточки товара** при наведении  
+- 🛒 **Интерактивная корзина**: добавление, удаление и изменение количества товаров  
+- 💅 Использование **Ant Design** для создания удобного интерфейса с продуманным UI/UX  
+- 🎨 **CSS** для стилизации страниц и компонентов  
+- 📱 **Адаптивный дизайн**, совместимость с мобильными устройствами  
+- 🚀 Развернут на **Netlify**, что обеспечивает быструю загрузку и стабильную работу проекта
 
+---
+
+## 🌍 Description (English 🇬🇧)
+
+This project is a modern online store for Logitech products, built using **React.js** and **Vite**. It focuses on speed, convenience, and clean code architecture.
+
+**Key Features**:
+
+- 🖥️ **Logitech product catalog**: keyboards, mice, headsets, and other peripherals  
+- 🔎 **Product filtering** by categories  
+- 🔍 **Hover zoom effect** on product cards  
+- 🛒 **Interactive shopping cart**: add, remove, and adjust item quantities  
+- 💅 Styled with **Ant Design** for an intuitive and polished UI/UX  
+- 🎨 **CSS** for styling pages and components  
+- 📱 **Responsive design**, compatible with mobile devices  
+- 🚀 Deployed on **Netlify**, ensuring fast load times and reliable performance
+
+---
+
+## ✅ Popis (Čeština 🇨🇿)
+
+Tento projekt je moderní online obchod s produkty Logitech, vytvořený pomocí **React.js** a **Vite**. Je navržen s důrazem na rychlost, přehlednost a čistou architekturu kódu.
+
+**Klíčové vlastnosti projektu**:
+
+- 🖥️ **Katalog produktů Logitech**: klávesnice, myši, sluchátka a další periferie  
+- 🔎 **Filtrace produktů** podle kategorií  
+- 🔍 **Efekt zvětšení karty produktu** při najetí myší  
+- 🛒 **Interaktivní košík**: přidávání, odstraňování a úprava množství položek  
+- 💅 Použití **Ant Design** pro vytvoření přehledného a elegantního UI/UX  
+- 🎨 **CSS** pro styling stránek a komponent  
+- 📱 **Responzivní design**, kompatibilní s mobilními zařízeními  
+- 🚀 Nasazeno na **Netlify**, což zajišťuje rychlé načítání a spolehlivý výkon
