@@ -15,7 +15,7 @@
 
 - 🖥️ **Каталог товаров Logitech**: клавиатуры, мыши, наушники и другие периферийные устройства  
 - 🔎 **Фильтрация товаров** по категориям  
-- 🔍 **Эффект увеличения карточки товара** при наведении  
+- 🔍 **Эффект увеличения карточки товара** при нажатии
 - 🛒 **Интерактивная корзина**: добавление, удаление и изменение количества товаров  
 - 💅 Использование **Ant Design** для создания удобного интерфейса с продуманным UI/UX  
 - 🎨 **CSS** для стилизации страниц и компонентов  
@@ -32,7 +32,7 @@ This project is a modern online store for Logitech products, built using **React
 
 - 🖥️ **Logitech product catalog**: keyboards, mice, headsets, and other peripherals  
 - 🔎 **Product filtering** by categories  
-- 🔍 **Hover zoom effect** on product cards  
+- 🔍 **Click zoom effect** on product cards  
 - 🛒 **Interactive shopping cart**: add, remove, and adjust item quantities  
 - 💅 Styled with **Ant Design** for an intuitive and polished UI/UX  
 - 🎨 **CSS** for styling pages and components  
@@ -49,7 +49,7 @@ Tento projekt je moderní online obchod s produkty Logitech, vytvořený pomocí
 
 - 🖥️ **Katalog produktů Logitech**: klávesnice, myši, sluchátka a další periferie  
 - 🔎 **Filtrace produktů** podle kategorií  
-- 🔍 **Efekt zvětšení karty produktu** při najetí myší  
+- 🔍 **Efekt zvětšení karty produktu** při kliku misi 
 - 🛒 **Interaktivní košík**: přidávání, odstraňování a úprava množství položek  
 - 💅 Použití **Ant Design** pro vytvoření přehledného a elegantního UI/UX  
 - 🎨 **CSS** pro styling stránek a komponent  
